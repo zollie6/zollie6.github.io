@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2019-12-26T07:49:47.410Z</updated>
+    <updated>2019-12-28T05:47:16.852Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zollie6.github.io"/>
     <link rel="self" href="https://zollie6.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://zollie6.github.io/images/avatar.png</logo>
     <icon>https://zollie6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 于忠利</rights>
+    <entry>
+        <title type="html"><![CDATA[优米 - 助力创业者成长]]></title>
+        <id>https://zollie6.github.io/post/you-mi-zhu-li-chuang-ye-zhe-cheng-chang</id>
+        <link href="https://zollie6.github.io/post/you-mi-zhu-li-chuang-ye-zhe-cheng-chang">
+        </link>
+        <updated>2019-12-26T07:40:44.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>项目背景</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zollie6.github.io/post/hello-gridea</id>
