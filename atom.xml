@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2020-02-03T13:16:51.087Z</updated>
+    <updated>2020-02-03T13:24:54.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zollie6.github.io"/>
     <link rel="self" href="https://zollie6.github.io/atom.xml"/>
@@ -11,15 +11,14 @@
     <icon>https://zollie6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 于忠利</rights>
     <entry>
-        <title type="html"><![CDATA[个人作品]]></title>
+        <title type="html"><![CDATA[作品集]]></title>
         <id>https://zollie6.github.io/post/ge-ren-zuo-pin</id>
         <link href="https://zollie6.github.io/post/ge-ren-zuo-pin">
         </link>
         <updated>2020-02-03T08:32:53.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
-<p><img src="https://zollie6.github.io/post-images/1580729103477.png" alt="" loading="lazy"><br>
-<img src="https://zollie6.github.io/post-images/1580729124083.png" alt="" loading="lazy"><br>
-<img src="https://zollie6.github.io/post-images/1580729139635.png" alt="" loading="lazy"><br>
+<figure data-type="image" tabindex="1"><img src="https://zollie6.github.io/post-images/1580729103477.png" alt="" loading="lazy"></figure>
+<p><img src="https://zollie6.github.io/post-images/1580729139635.png" alt="" loading="lazy"><br>
 <img src="https://zollie6.github.io/post-images/1580735278809.png" alt="" loading="lazy"><br>
 <img src="https://zollie6.github.io/post-images/1580735312481.png" alt="" loading="lazy"><br>
 <img src="https://zollie6.github.io/post-images/1580735325104.png" alt="" loading="lazy"><br>
