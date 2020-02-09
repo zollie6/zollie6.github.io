@@ -1,116 +1,127 @@
 <html>
   <head>
-    <meta charset="utf-8" />
+  <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>于忠利</title>
 <meta name="description" content="资深UI/平面设计师" />
-<link rel="shortcut icon" href="https://zollie6.github.io/favicon.ico?v=1581257999022">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://zollie6.github.io/favicon.ico?v=1581258247634">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
 <link rel="stylesheet" href="https://zollie6.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="于忠利 - Atom Feed" href="https://zollie6.github.io/atom.xml">
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div class="head">
-  <div class="inner">
-    <a class="site-name" href="https://zollie6.github.io">
-        <span>于忠利</span>
-    </a>
-    <label class="burger" for="burger"></label>
-    <input id="burger" type="checkbox">
-    <button class="burger">
-      <div>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
-    <nav class="info_nav">
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zollie6.github.io">
+  <img class="avatar" src="https://zollie6.github.io/images/avatar.png?v=1581258247634" alt="">
+  </a>
+  <h1 class="site-title">
+    于忠利
+  </h1>
+  <p class="site-description">
+    资深UI/平面设计师
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/">首页</a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/archives">归档</a>
-        
+    
       
-        
-          <a href="/tags">标签</a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/post/about">关于</a>
-        
+    
       
-    </nav>
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
-    <div class="info _site">
-      <div class="inner">
-        <div class="info_main">
-          <h1 class="info_title"><i class="ri-price-tag-3-line"></i> 目前共计 1 个标签</h1>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="inner">
-        <div class="tags">
-          
-            <a class="tag" href="https://zollie6.github.io/tag/Td2g4HtKg">
-              <div class="tag-name">APP</div>
-              <div class="tag-count">1</div>
-              <i class="ri-price-tag-3-line icon"></i>
-            </a>
-          
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-  <div class="main">
-    <a href="https://zollie6.github.io">
-      <img class="avatar" src="https://zollie6.github.io/images/avatar.png?v=1581257999022" alt="于忠利">
-    </a>
-    <div class="footer__social">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <p class="footer__sosumi">
-      Powered by Zollie
-    </p>
-    <a class="footer-rss" href="https://zollie6.github.io/atom.xml">RSS</a>
-  </div>
-</footer>
 
-<script src="https://zollie6.github.io/media/prism.js"></script>
+
+        <div class="tags-container">
+          
+        </div>
+
+        <div class="site-footer">
+  Powered by Zollie  
+ 
+</div>
+
 <script>
-  Prism.highlightAll()
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
 </script>
 
+      </div>
+    </div>
   </body>
 </html>
