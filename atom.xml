@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2020-02-11T02:57:31.603Z</updated>
+    <updated>2020-02-11T03:15:38.115Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zollie6.github.io"/>
     <link rel="self" href="https://zollie6.github.io/atom.xml"/>
@@ -23,6 +23,22 @@
 <h2 id="产品概述">产品概述</h2>
 <p>马蜂窝是一款年轻人喜好的旅游社交APP，UGC（用户创造内容）、旅游大数据、自由行交易平台是马蜂窝的核心竞争力，马蜂窝的全新营销概念在自身优势下提出“攻略+战略”，产品基于旅行类UGC内容，引导用户互动分享旅游资讯、旅行体验经历，帮助用户做消费决策，同时提供交通、酒店、景点、餐饮、购物、用车、当地玩乐等产品预订的一站式APP服务，从而实现旅游的闭环。</p>
 <h2 id="改版目标">改版目标</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[优米  UI/PC设计]]></title>
+        <id>https://zollie6.github.io/post/youmi</id>
+        <link href="https://zollie6.github.io/post/youmi">
+        </link>
+        <updated>2020-02-06T07:40:44.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h2 id="项目背景">项目背景</h2>
+<p>在行业形态瞬息万变，知识折旧飞速，不快进就要被淘汰的当代，传统行业插上移动互联翅膀的唯一方式就是抓住科技变化。大数据、O2O、小米手机粉丝经济、微信营销卖桂花鸭、黄太吉煎饼颠覆传统餐饮……移动互联时代的弄潮儿，优米网“新趋势”，一网打尽。<br>
+改变的能力，即互联网的能力。移动互联时代的创业者，亟需赋予自身互联网的硬技能加软实力，才能在创业路上一直前行。微博、微信运营，交互设计，产品经理，品牌营销，时间管理……优米每周为创业者提供资源整合，产品运营等核心竞争力的相关视频。此外，优米帮助创业人士建立并对接属于他们自己的线下圈层及资源。</p>
+<h2 id="app设计">APP设计</h2>
+<figure data-type="image" tabindex="1"><img src="https://zollie6.github.io/post-images/1577521662724.png" alt="" loading="lazy"></figure>
+<h2 id="海报设计">海报设计</h2>
+<figure data-type="image" tabindex="2"><img src="https://zollie6.github.io/post-images/1577522845367.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
