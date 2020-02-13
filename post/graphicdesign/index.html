@@ -1,0 +1,192 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>平面设计 | 于忠利</title>
+<meta name="description" content="用设计解决问题，实现用户增长" />
+<link rel="shortcut icon" href="https://zollie6.github.io/favicon.ico?v=1581583145130">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://zollie6.github.io/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zollie6.github.io">
+  <img class="avatar" src="https://zollie6.github.io/images/avatar.png?v=1581583145130" alt="">
+  </a>
+  <h1 class="site-title">
+    于忠利
+  </h1>
+  <p class="site-description">
+    用设计解决问题，实现用户增长
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于我
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              平面设计
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-02-03
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://zollie6.github.io/tag/K4VG5QRzl" class="post-tag">
+                  # LOGO设计
+                </a>
+              
+                <a href="https://zollie6.github.io/tag/Yc4CrzDJG" class="post-tag">
+                  # 平面设计
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://i.loli.net/2020/02/11/capZ1AX7UdqMtCl.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <!-- more -->
+<h3 id="海报设计">海报设计</h3>
+<p><img src="https://zollie6.github.io/post-images/1581574311544.png" alt="" loading="lazy"><br>
+<img src="https://zollie6.github.io/post-images/1581574319654.png" alt="" loading="lazy"></p>
+<h3 id="易拉宝设计">易拉宝设计</h3>
+<figure data-type="image" tabindex="1"><img src="https://zollie6.github.io/post-images/1581574335722.png" alt="" loading="lazy"></figure>
+<h3 id="三折页设计">三折页设计</h3>
+<figure data-type="image" tabindex="2"><img src="https://zollie6.github.io/post-images/1581575680778.png" alt="" loading="lazy"></figure>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1">海报设计</a></li>
+<li><a href="#%E6%98%93%E6%8B%89%E5%AE%9D%E8%AE%BE%E8%AE%A1">易拉宝设计</a></li>
+<li><a href="#%E4%B8%89%E6%8A%98%E9%A1%B5%E8%AE%BE%E8%AE%A1">三折页设计</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zollie6.github.io/post/otherdesign">
+              <h3 class="post-title">
+                其他设计
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by Zollie  
+ 
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
