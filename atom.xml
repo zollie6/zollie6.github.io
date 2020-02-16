@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2020-02-13T08:56:12.517Z</updated>
+    <updated>2020-02-16T07:39:04.667Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zollie6.github.io"/>
     <link rel="self" href="https://zollie6.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, 于忠利</rights>
     <entry>
         <title type="html"><![CDATA[UI设计]]></title>
-        <id>https://zollie6.github.io/post/uidesign</id>
-        <link href="https://zollie6.github.io/post/uidesign">
+        <id>https://zollie6.github.io/post/uidesign/</id>
+        <link href="https://zollie6.github.io/post/uidesign/">
         </link>
         <updated>2020-02-08T04:53:57.000Z</updated>
         <content type="html"><![CDATA[<h1 id="马蜂窝">马蜂窝</h1>
@@ -45,8 +45,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[平面设计]]></title>
-        <id>https://zollie6.github.io/post/graphicdesign</id>
-        <link href="https://zollie6.github.io/post/graphicdesign">
+        <id>https://zollie6.github.io/post/graphicdesign/</id>
+        <link href="https://zollie6.github.io/post/graphicdesign/">
         </link>
         <updated>2020-02-03T08:32:53.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
@@ -61,8 +61,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[其他设计]]></title>
-        <id>https://zollie6.github.io/post/otherdesign</id>
-        <link href="https://zollie6.github.io/post/otherdesign">
+        <id>https://zollie6.github.io/post/otherdesign/</id>
+        <link href="https://zollie6.github.io/post/otherdesign/">
         </link>
         <updated>2020-02-02T08:39:40.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
