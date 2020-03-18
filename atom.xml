@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zollies.github.io</id>
+    <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2020-03-18T05:01:08.818Z</updated>
+    <updated>2020-03-18T05:16:48.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zollies.github.io"/>
-    <link rel="self" href="https://zollies.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zollie6.github.io"/>
+    <link rel="self" href="https://zollie6.github.io/atom.xml"/>
     <subtitle>设计为生活而存在</subtitle>
-    <logo>https://zollies.github.io/images/avatar.png</logo>
-    <icon>https://zollies.github.io/favicon.ico</icon>
+    <logo>https://zollie6.github.io/images/avatar.png</logo>
+    <icon>https://zollie6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 于忠利</rights>
     <entry>
         <title type="html"><![CDATA[UI设计]]></title>
-        <id>https://zollies.github.io/post/uidesign/</id>
-        <link href="https://zollies.github.io/post/uidesign/">
+        <id>https://zollie6.github.io/post/uidesign/</id>
+        <link href="https://zollie6.github.io/post/uidesign/">
         </link>
         <updated>2020-02-08T04:53:57.000Z</updated>
         <content type="html"><![CDATA[<h1 id="马蜂窝">马蜂窝</h1>
@@ -43,8 +43,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[平面设计]]></title>
-        <id>https://zollies.github.io/post/graphicdesign/</id>
-        <link href="https://zollies.github.io/post/graphicdesign/">
+        <id>https://zollie6.github.io/post/graphicdesign/</id>
+        <link href="https://zollie6.github.io/post/graphicdesign/">
         </link>
         <updated>2020-02-03T08:32:53.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/17/iOW6pakUJqXYHRZ.jpg" alt="平面33-1.jpg" loading="lazy"></figure>
@@ -52,8 +52,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[其他设计]]></title>
-        <id>https://zollies.github.io/post/otherdesign/</id>
-        <link href="https://zollies.github.io/post/otherdesign/">
+        <id>https://zollie6.github.io/post/otherdesign/</id>
+        <link href="https://zollie6.github.io/post/otherdesign/">
         </link>
         <updated>2020-02-02T08:39:40.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
