@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zollie6.github.io</id>
     <title>于忠利</title>
-    <updated>2020-08-31T14:43:38.522Z</updated>
+    <updated>2020-08-31T14:44:29.463Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zollie6.github.io"/>
     <link rel="self" href="https://zollie6.github.io/atom.xml"/>
@@ -10,61 +10,4 @@
     <logo>https://zollie6.github.io/images/avatar.png</logo>
     <icon>https://zollie6.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 于忠利</rights>
-    <entry>
-        <title type="html"><![CDATA[UI设计]]></title>
-        <id>https://zollie6.github.io/post/uidesign/</id>
-        <link href="https://zollie6.github.io/post/uidesign/">
-        </link>
-        <updated>2020-02-08T04:53:57.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="马蜂窝">马蜂窝</h1>
-<h3 id="产品概述">产品概述</h3>
-<p>马蜂窝是一款年轻人喜好的旅游社交APP，UGC（用户创造内容）、旅游大数据、自由行交易平台是马蜂窝的核心竞争力，马蜂窝的全新营销概念在自身优势下提出“攻略+战略”，产品基于旅行类UGC内容，引导用户互动分享旅游资讯、旅行体验经历，帮助用户做消费决策，同时提供交通、酒店、景点、餐饮、购物、用车、当地玩乐等产品预订的一站式APP服务，从而实现旅游的闭环。</p>
-<h3 id="改版目标">改版目标</h3>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/02/11/dJeGAFu4VWljB5v.png" alt="UI-目的.png" loading="lazy"></figure>
-<h3 id="色彩定义">色彩定义</h3>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/02/11/KI68w1nUztMWCea.png" alt="UI-色彩.png" loading="lazy"></figure>
-<h3 id="字体选择">字体选择</h3>
-<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2020/02/11/rstaOwgNd2f5MYp.png" alt="UI-字体.png" loading="lazy"></figure>
-<h3 id="改版前后对比">改版前后对比</h3>
-<p><img src="https://i.loli.net/2020/02/11/KeH7cglnDwRUIhO.png" alt="Q11.png" loading="lazy"><br>
-<img src="https://i.loli.net/2020/02/11/ySE7u2xH4c5hQzP.png" alt="Q21.png" loading="lazy"></p>
-<h3 id="图标设计">图标设计</h3>
-<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2020/02/11/X6BPnYGklamxD3v.png" alt="UI-TB1.png" loading="lazy"></figure>
-<h3 id="情感化设计">情感化设计</h3>
-<figure data-type="image" tabindex="5"><img src="https://i.loli.net/2020/02/11/P9uAiabtIDYCerK.png" alt="qgh.png" loading="lazy"></figure>
-<h3 id="其他界面展示">其他界面展示</h3>
-<p><img src="https://i.loli.net/2020/02/11/XjSlftAGQbmEDBd.jpg" alt="qita1.jpg" loading="lazy"><br>
-<img src="https://i.loli.net/2020/03/17/jrX3BvJWdtbkTlM.jpg" alt="网页设计33.jpg" loading="lazy"></p>
-<h1 id="火辣健身">火辣健身</h1>
-<figure data-type="image" tabindex="6"><img src="https://i.loli.net/2020/03/17/9P1385MkbaqDA2O.jpg" alt="火辣健身33.jpg" loading="lazy"></figure>
-<h1 id="b端产品设计">B端产品设计</h1>
-<figure data-type="image" tabindex="7"><img src="https://i.loli.net/2020/03/02/jRsMtNUFL8YG9px.jpg" alt="区块链ABS业务管理系统.jpg" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[平面设计]]></title>
-        <id>https://zollie6.github.io/post/graphicdesign/</id>
-        <link href="https://zollie6.github.io/post/graphicdesign/">
-        </link>
-        <updated>2020-02-03T08:32:53.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/17/iOW6pakUJqXYHRZ.jpg" alt="平面33-1.jpg" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[其他设计]]></title>
-        <id>https://zollie6.github.io/post/otherdesign/</id>
-        <link href="https://zollie6.github.io/post/otherdesign/">
-        </link>
-        <updated>2020-02-02T08:39:40.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h3 id="动效设计">动效设计</h3>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/02/Zogahu4bwp86iqD.gif" alt="111-2.gif" loading="lazy"></figure>
-<h3 id="字体设计">字体设计</h3>
-<figure data-type="image" tabindex="2"><img src="https://i.loli.net/2020/03/02/oUhks5m6MTV4wIl.png" alt="字体设计.png" loading="lazy"></figure>
-<h3 id="运营设计">运营设计</h3>
-<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2020/03/02/xWD52MbGPamOdEK.png" alt="运营设计.png" loading="lazy"></figure>
-<h3 id="插画设计">插画设计</h3>
-<figure data-type="image" tabindex="4"><img src="https://i.loli.net/2020/03/10/hZoYPzyRuDJifE9.jpg" alt="插画2.0.jpg" loading="lazy"></figure>
-]]></content>
-    </entry>
 </feed>
